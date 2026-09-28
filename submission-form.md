@@ -83,4 +83,4 @@ Drive link:
 
 ## Github Repo Link
 
-Not published. The folder `vireo-scoreboard` is the repo to upload. I did not push it, because a public URL needs your GitHub account.
+https://github.com/Shantanu005/vireo-scoreboard
