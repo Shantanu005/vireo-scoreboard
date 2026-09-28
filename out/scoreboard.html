@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vireo scoreboard, Jan–Jun 2026</title>
+<style>
+  body { font: 15px/1.45 -apple-system, BlinkMacSystemFont, sans-serif; margin: 32px auto; max-width: 980px; color: #1a1a1a; background: #fff; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  p, li { max-width: 68ch; }
+  .muted { color: #555; }
+  .box { background: #f6f3ea; padding: 14px 16px; border-left: 4px solid #8a5a00; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 4px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #ddd; vertical-align: top; }
+  th { font-size: 12px; letter-spacing: 0.02em; color: #444; }
+  td:nth-child(n+3), th:nth-child(n+3) { text-align: right; }
+</style>
+</head>
+<body>
+<h1>Who to coach, January–June 2026</h1>
+<p class="muted">Average of surveys that were answered, scale 1 to 5. Blank surveys are left out. Time to finish is the median from the first human reply to resolution. Built by <code>score.py</code> from the files in <code>data/</code>. No model calls.</p>
+<div class="box">
+<p><strong>The number.</strong> Customers giving a 1 or a 2 rose from 15% of answered surveys before October 2025 to 28% in January–June 2026. Bringing the 3 people whose shortfall clears a rough confidence interval up to the level of similar tickets moves the company average by about 0.03 points, on 229 surveys out of 2,299. It does not buy the drop from 28% back to 15%.</p>
+<p>Pulse 2 replacements ran at 8% from launch through September 2025 and at 30% from December 2025 through June 2026. The extra replacements, at Rs 1,820 each (unit cost Rs 1,480 plus Rs 340 logistics), cost about Rs 1,428,923. January–March 2026 alone was about Rs 1,011,455. April–June was about Rs 301,554.</p>
+<p>Where the customer quoted an order, the October–December 2025 lots are the ones being replaced: PL2-2511-3 45% (66/146), PL2-2510-1 43% (65/151), PL2-2510-3 42% (67/161), PL2-2510-4 41% (60/145), PL2-2512-4 40% (45/114). 1,232 Pulse 2 tickets since December had no matching order, so they are in the rupee figure and not in that lot list.</p>
+</div>
+<h2>Raw bottom ten, by rating</h2>
+<p class="muted">The sort Priya asked for. Warranty is on this list because those agents were given the Pulse 2 faults.</p>
+<table><thead><tr><th>Person</th><th>Team</th><th>Rating</th><th>Surveys</th><th>Time to finish</th></tr></thead><tbody><tr><td>Tarun Fernandes (A3040), Indore</td><td>Warranty</td><td>2.23</td><td>62</td><td>3.1 days</td></tr><tr><td>Pranav Khanna (A3044), Bengaluru</td><td>Warranty</td><td>2.26</td><td>62</td><td>4.1 days</td></tr><tr><td>Jaspreet Desai (A3041), Bengaluru</td><td>Warranty</td><td>2.26</td><td>61</td><td>5.1 days</td></tr><tr><td>Sneha Sethi (A3042), Bengaluru</td><td>Warranty</td><td>2.31</td><td>67</td><td>3.1 days</td></tr><tr><td>Kabir Varghese (A3043), Bengaluru</td><td>Warranty</td><td>2.37</td><td>49</td><td>5.1 days</td></tr><tr><td>Sameer Ghosh (A3039), Bengaluru</td><td>Warranty</td><td>2.61</td><td>56</td><td>4.0 days</td></tr><tr><td>Siddharth Kapoor (A3004), Bengaluru</td><td>Chat</td><td>2.61</td><td>67</td><td>28 min</td></tr><tr><td>Kavya Pandey (A3006), Indore</td><td>Chat</td><td>2.72</td><td>74</td><td>30 min</td></tr><tr><td>Zaid Khanna (A3005), Bengaluru</td><td>Chat</td><td>2.86</td><td>64</td><td>27 min</td></tr><tr><td>Siddharth Trivedi (A3007), Indore</td><td>Chat</td><td>2.88</td><td>69</td><td>28 min</td></tr></tbody></table>
+<h2>Ten to look at after the ticket mix</h2>
+<p class="muted">Rating minus the rating other agents got on the same product and the same problem type. Warranty is left off this list. A name is marked for coaching only when a rough 95% interval for that gap sits entirely below zero. The rest of this ten match their tickets, or the shortfall is too small to trust.</p>
+<table><thead><tr><th>Person</th><th>Team</th><th>Rating</th><th>Similar tickets</th><th>Gap</th><th>Surveys</th><th>Time to finish</th></tr></thead><tbody><tr><td>Kavya Pandey (A3006), Indore</td><td>Chat</td><td>2.72</td><td>3.00</td><td>-0.29</td><td>74</td><td>30 min</td></tr><tr><td>Siddharth Kapoor (A3004), Bengaluru</td><td>Chat</td><td>2.61</td><td>2.89</td><td>-0.28</td><td>67</td><td>28 min</td></tr><tr><td>Zoya Menon (A3031), Bengaluru</td><td>Logistics</td><td>3.09</td><td>3.32</td><td>-0.23</td><td>88</td><td>1.0 days</td></tr><tr><td>Harpreet Goyal (A3027), Bengaluru</td><td>Logistics</td><td>3.14</td><td>3.33</td><td>-0.19</td><td>77</td><td>1.0 days</td></tr><tr><td>Nisha Rao (A3035), Bengaluru</td><td>Billing</td><td>3.28</td><td>3.43</td><td>-0.15</td><td>64</td><td>23 min</td></tr><tr><td>Deepak Saxena (A3003), Indore</td><td>Chat</td><td>3.35</td><td>3.48</td><td>-0.12</td><td>31</td><td>26 min</td></tr><tr><td>Kavya Pandey (A3029), Bengaluru</td><td>Logistics</td><td>3.24</td><td>3.32</td><td>-0.08</td><td>55</td><td>1.0 days</td></tr><tr><td>Zaid Khanna (A3005), Bengaluru</td><td>Chat</td><td>2.86</td><td>2.89</td><td>-0.03</td><td>64</td><td>27 min</td></tr><tr><td>Geeta Iyer (A3030), Bengaluru</td><td>Logistics</td><td>3.25</td><td>3.27</td><td>-0.03</td><td>53</td><td>1.0 days</td></tr><tr><td>Siddharth Trivedi (A3007), Indore</td><td>Chat</td><td>2.88</td><td>2.90</td><td>-0.01</td><td>69</td><td>28 min</td></tr></tbody></table>
+<h2>Diwali bonus, top five on the same comparison</h2>
+<p class="muted">At least 25 answered surveys. Warranty agents were eligible. None landed here.</p>
+<table><thead><tr><th>Person</th><th>Team</th><th>Rating</th><th>Similar tickets</th><th>Gap</th><th>Surveys</th><th>Time to finish</th></tr></thead><tbody><tr><td>Bhavna Joshi (A3014), Indore</td><td>Chat</td><td>3.86</td><td>3.34</td><td>+0.52</td><td>29</td><td>21 min</td></tr><tr><td>Kunal Pillai (A3018), Bengaluru</td><td>Email</td><td>3.81</td><td>3.33</td><td>+0.47</td><td>42</td><td>23 min</td></tr><tr><td>Sukhwinder Rao (A3013), Indore</td><td>Chat</td><td>3.67</td><td>3.27</td><td>+0.39</td><td>39</td><td>24 min</td></tr><tr><td>Steven Ghosh (A3012), Indore</td><td>Chat</td><td>3.67</td><td>3.29</td><td>+0.38</td><td>30</td><td>24 min</td></tr><tr><td>Sai Joshi (A3019), Bengaluru</td><td>Email</td><td>3.68</td><td>3.34</td><td>+0.34</td><td>57</td><td>24 min</td></tr></tbody></table>
+<h2>Time to finish, by team</h2>
+<table><thead><tr><th>Team</th><th>Tickets closed</th><th>Median time</th></tr></thead><tbody><tr><td>Billing</td><td>538</td><td>21 min</td></tr><tr><td>Voice Frontline</td><td>324</td><td>22 min</td></tr><tr><td>Email Frontline</td><td>750</td><td>23 min</td></tr><tr><td>Chat Frontline</td><td>1,647</td><td>25 min</td></tr><tr><td>Logistics</td><td>722</td><td>1.0 days</td></tr><tr><td>Returns Desk</td><td>454</td><td>1.0 days</td></tr><tr><td>Escalations &amp; Warranty</td><td>830</td><td>3.7 days</td></tr></tbody></table>
+<h2>Rating by month</h2>
+<p class="muted">Company average before October 2025 was 3.49 (1,557 surveys). January–June 2026 was 3.17 (2,299 surveys).</p>
+<table><thead><tr><th>Month</th><th>All products</th><th>Pulse 2</th><th>Pulse 2 surveys</th><th>Other products</th><th>Other surveys</th></tr></thead><tbody><tr><td>2025-07</td><td>3.42</td><td>3.56</td><td>16</td><td>3.41</td><td>170</td></tr><tr><td>2025-08</td><td>3.41</td><td>3.38</td><td>52</td><td>3.41</td><td>208</td></tr><tr><td>2025-09</td><td>3.41</td><td>3.54</td><td>61</td><td>3.37</td><td>187</td></tr><tr><td>2025-10</td><td>3.60</td><td>3.60</td><td>65</td><td>3.60</td><td>229</td></tr><tr><td>2025-11</td><td>3.47</td><td>3.44</td><td>133</td><td>3.49</td><td>224</td></tr><tr><td>2025-12</td><td>3.29</td><td>3.12</td><td>243</td><td>3.50</td><td>197</td></tr><tr><td>2026-01</td><td>3.11</td><td>2.90</td><td>323</td><td>3.52</td><td>163</td></tr><tr><td>2026-02</td><td>2.95</td><td>2.80</td><td>345</td><td>3.35</td><td>134</td></tr><tr><td>2026-03</td><td>3.14</td><td>2.88</td><td>267</td><td>3.50</td><td>193</td></tr><tr><td>2026-04</td><td>3.24</td><td>3.00</td><td>141</td><td>3.42</td><td>192</td></tr><tr><td>2026-05</td><td>3.37</td><td>3.26</td><td>105</td><td>3.44</td><td>181</td></tr><tr><td>2026-06</td><td>3.40</td><td>3.42</td><td>95</td><td>3.39</td><td>160</td></tr></tbody></table>
+<p class="muted">Peer averages used the same product and problem type when at least 20 surveys from other agents existed (1,389 surveys). Otherwise the product (882), otherwise everyone (28).</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+PASS ticket count 11,750
+PASS legacy negative handle times 2,309 before the IST shift, 0 after
+PASS two Kavya Pandey rows stay A3006 Indore chat and A3029 Bengaluru logistics
+PASS A3006, A3004, A3014, A3041 survey means match a second pass over tickets.csv
+PASS Pulse 2 replacement = 1480 + 340 = Rs 1,820, and the quarter rupees use that
+PASS blank surveys exist and are excluded (A3006 has 139 blanks in the whole file)
+
+Ranking stability, 400 resamples of each person's own surveys, seed 42.
+Peer benchmark held fixed. A draw is 'the same call' when the worst non-warranty names, same count as the coaching list, are unchanged.
+Exact same set of 3: 17.2% of draws.
+  Kavya Pandey (A3006) stayed in the worst 3 in 72.5% of draws
+  Siddharth Kapoor (A3004) stayed in the worst 3 in 63.2% of draws
+  Zoya Menon (A3031) stayed in the worst 3 in 50.5% of draws
+
+Standard error of the coaching gaps:
+A3006 n=74 gap=-0.288 se=0.132
+A3004 n=67 gap=-0.282 se=0.113
+A3031 n=88 gap=-0.228 se=0.105
+
+Cases the score gets wrong:
+- 882 of 2,299 surveys (38%) had fewer than 20 peer surveys in the same product and problem type, so they were compared with the whole product. A hard Connectivity ticket can be judged against an easy one.
+- 28 surveys (1.2%) fell back to the company average.
+- Warranty agents are further below similar tickets than the coaching names (Jaspreet Desai's gap is about −0.54). They are left off the coaching list by the rota rule, not because the arithmetic cleared them.
+- The coaching rule is a rough normal interval (gap + 1.96 standard errors < 0). Zoya Menon only just clears it. Harpreet Goyal and Nisha Rao do not, and a slightly wider interval would drop Zoya too.
+- People with fewer than 25 surveys are never named. Ananya Das is at about +0.35 on 20 surveys and is left off the bonus list.
+- Answered surveys on open or pending tickets are ignored. The survey is supposed to go out at resolution; if one went out early, it is missing here.
+- A legacy ticket that really was resolved before the first reply would be hidden by the +5h30 shift. The shift removed every negative legacy handle time, which is why it is applied to all of them.
+- Pulse 2 tickets with no matching order are in the replacement cost and missing from the lot table.
+
+Lot rows in the summary: 8. Pulse 2 tickets since December with no order match: 1232.

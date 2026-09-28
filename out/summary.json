@@ -1,0 +1,1140 @@
+{
+  "window": "2026-01-01 to 2026-06-30",
+  "min_surveys": 25,
+  "tickets": 11750,
+  "legacy_negative_handles_before_shift": 2309,
+  "legacy_negative_handles_after_shift": 0,
+  "duplicate_display_names": [
+    "Kavya Pandey"
+  ],
+  "both_refund_and_replacement": 6,
+  "csat": {
+    "before_oct_2025": {
+      "surveys": 1557,
+      "csat": 3.486
+    },
+    "jan_jun_2026": {
+      "surveys": 2299,
+      "csat": 3.167
+    },
+    "months": [
+      {
+        "month": "2025-07",
+        "all": {
+          "surveys": 186,
+          "csat": 3.425
+        },
+        "pulse2": {
+          "surveys": 16,
+          "csat": 3.562
+        },
+        "other": {
+          "surveys": 170,
+          "csat": 3.412
+        }
+      },
+      {
+        "month": "2025-08",
+        "all": {
+          "surveys": 260,
+          "csat": 3.408
+        },
+        "pulse2": {
+          "surveys": 52,
+          "csat": 3.385
+        },
+        "other": {
+          "surveys": 208,
+          "csat": 3.413
+        }
+      },
+      {
+        "month": "2025-09",
+        "all": {
+          "surveys": 248,
+          "csat": 3.411
+        },
+        "pulse2": {
+          "surveys": 61,
+          "csat": 3.541
+        },
+        "other": {
+          "surveys": 187,
+          "csat": 3.369
+        }
+      },
+      {
+        "month": "2025-10",
+        "all": {
+          "surveys": 294,
+          "csat": 3.599
+        },
+        "pulse2": {
+          "surveys": 65,
+          "csat": 3.6
+        },
+        "other": {
+          "surveys": 229,
+          "csat": 3.598
+        }
+      },
+      {
+        "month": "2025-11",
+        "all": {
+          "surveys": 357,
+          "csat": 3.473
+        },
+        "pulse2": {
+          "surveys": 133,
+          "csat": 3.444
+        },
+        "other": {
+          "surveys": 224,
+          "csat": 3.491
+        }
+      },
+      {
+        "month": "2025-12",
+        "all": {
+          "surveys": 440,
+          "csat": 3.291
+        },
+        "pulse2": {
+          "surveys": 243,
+          "csat": 3.119
+        },
+        "other": {
+          "surveys": 197,
+          "csat": 3.503
+        }
+      },
+      {
+        "month": "2026-01",
+        "all": {
+          "surveys": 486,
+          "csat": 3.107
+        },
+        "pulse2": {
+          "surveys": 323,
+          "csat": 2.901
+        },
+        "other": {
+          "surveys": 163,
+          "csat": 3.515
+        }
+      },
+      {
+        "month": "2026-02",
+        "all": {
+          "surveys": 479,
+          "csat": 2.952
+        },
+        "pulse2": {
+          "surveys": 345,
+          "csat": 2.797
+        },
+        "other": {
+          "surveys": 134,
+          "csat": 3.351
+        }
+      },
+      {
+        "month": "2026-03",
+        "all": {
+          "surveys": 460,
+          "csat": 3.141
+        },
+        "pulse2": {
+          "surveys": 267,
+          "csat": 2.88
+        },
+        "other": {
+          "surveys": 193,
+          "csat": 3.503
+        }
+      },
+      {
+        "month": "2026-04",
+        "all": {
+          "surveys": 333,
+          "csat": 3.24
+        },
+        "pulse2": {
+          "surveys": 141,
+          "csat": 3.0
+        },
+        "other": {
+          "surveys": 192,
+          "csat": 3.417
+        }
+      },
+      {
+        "month": "2026-05",
+        "all": {
+          "surveys": 286,
+          "csat": 3.371
+        },
+        "pulse2": {
+          "surveys": 105,
+          "csat": 3.257
+        },
+        "other": {
+          "surveys": 181,
+          "csat": 3.436
+        }
+      },
+      {
+        "month": "2026-06",
+        "all": {
+          "surveys": 255,
+          "csat": 3.404
+        },
+        "pulse2": {
+          "surveys": 95,
+          "csat": 3.421
+        },
+        "other": {
+          "surveys": 160,
+          "csat": 3.394
+        }
+      }
+    ]
+  },
+  "detractors": {
+    "jan_sep_2025": {
+      "surveys": 1557,
+      "detractors": 231,
+      "rate": 0.14836223506743737
+    },
+    "jan_jun_2026": {
+      "surveys": 2299,
+      "detractors": 637,
+      "rate": 0.2770769899956503
+    },
+    "jan_jun_2026_pulse2": {
+      "surveys": 1276,
+      "detractors": 475,
+      "rate": 0.3722570532915361
+    },
+    "jan_jun_2026_other": {
+      "surveys": 1023,
+      "detractors": 162,
+      "rate": 0.15835777126099707
+    }
+  },
+  "replacements": {
+    "unit_cost_inr": 1480.0,
+    "logistics_inr": 340,
+    "each_inr": 1820.0,
+    "baseline": {
+      "tickets": 286,
+      "replacements": 23,
+      "rate": 0.08041958041958042,
+      "label": "15 Jul\u201330 Sep 2025"
+    },
+    "since_december": {
+      "tickets": 3617,
+      "replacements": 1076,
+      "rate": 0.2974841028476638,
+      "label": "1 Dec 2025\u201330 Jun 2026",
+      "excess_replacements": 785.1,
+      "excess_inr": 1428923
+    },
+    "jan_mar_2026": {
+      "tickets": 2229,
+      "replacements": 735,
+      "rate": 0.3297442799461642,
+      "label": "Jan\u2013Mar 2026",
+      "excess_replacements": 555.7,
+      "excess_inr": 1011455
+    },
+    "apr_jun_2026": {
+      "tickets": 837,
+      "replacements": 233,
+      "rate": 0.27837514934289126,
+      "label": "Apr\u2013Jun 2026",
+      "excess_replacements": 165.7,
+      "excess_inr": 301554
+    }
+  },
+  "lots": {
+    "lots": [
+      {
+        "lot_code": "PL2-2511-3",
+        "tickets": 146,
+        "replacements": 66,
+        "rate": 0.452
+      },
+      {
+        "lot_code": "PL2-2510-1",
+        "tickets": 151,
+        "replacements": 65,
+        "rate": 0.43
+      },
+      {
+        "lot_code": "PL2-2510-3",
+        "tickets": 161,
+        "replacements": 67,
+        "rate": 0.416
+      },
+      {
+        "lot_code": "PL2-2510-4",
+        "tickets": 145,
+        "replacements": 60,
+        "rate": 0.414
+      },
+      {
+        "lot_code": "PL2-2512-4",
+        "tickets": 114,
+        "replacements": 45,
+        "rate": 0.395
+      },
+      {
+        "lot_code": "PL2-2511-2",
+        "tickets": 126,
+        "replacements": 49,
+        "rate": 0.389
+      },
+      {
+        "lot_code": "PL2-2510-2",
+        "tickets": 150,
+        "replacements": 55,
+        "rate": 0.367
+      },
+      {
+        "lot_code": "PL2-2511-4",
+        "tickets": 169,
+        "replacements": 58,
+        "rate": 0.343
+      }
+    ],
+    "pulse2_since_dec_without_order": 1232
+  },
+  "coaching_lift": {
+    "people": 3,
+    "surveys": 229,
+    "company_surveys": 2299,
+    "mean_lift": 0.026
+  },
+  "peer_fallback": {
+    "cell": 1389,
+    "product": 882,
+    "all": 28
+  },
+  "team_handle": [
+    {
+      "team": "Billing",
+      "closed": 538,
+      "median_h": 0.36,
+      "label": "21 min"
+    },
+    {
+      "team": "Voice Frontline",
+      "closed": 324,
+      "median_h": 0.37,
+      "label": "22 min"
+    },
+    {
+      "team": "Email Frontline",
+      "closed": 750,
+      "median_h": 0.38,
+      "label": "23 min"
+    },
+    {
+      "team": "Chat Frontline",
+      "closed": 1647,
+      "median_h": 0.42,
+      "label": "25 min"
+    },
+    {
+      "team": "Logistics",
+      "closed": 722,
+      "median_h": 24.42,
+      "label": "1.0 days"
+    },
+    {
+      "team": "Returns Desk",
+      "closed": 454,
+      "median_h": 24.54,
+      "label": "1.0 days"
+    },
+    {
+      "team": "Escalations & Warranty",
+      "closed": 830,
+      "median_h": 87.93,
+      "label": "3.7 days"
+    }
+  ],
+  "lists": {
+    "raw_bottom_10": [
+      {
+        "agent_id": "A3040",
+        "name": "Tarun Fernandes",
+        "site": "Indore",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 139,
+        "surveys": 62,
+        "csat": 2.226,
+        "detractor_rate": 0.629,
+        "gap": -0.411,
+        "gap_se": 0.152,
+        "expected": 2.637,
+        "handle_median_h": 75.3,
+        "handle_label": "3.1 days",
+        "pl2_share": 0.835,
+        "named": true
+      },
+      {
+        "agent_id": "A3044",
+        "name": "Pranav Khanna",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Day",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 154,
+        "surveys": 62,
+        "csat": 2.258,
+        "detractor_rate": 0.597,
+        "gap": -0.412,
+        "gap_se": 0.111,
+        "expected": 2.67,
+        "handle_median_h": 98.35,
+        "handle_label": "4.1 days",
+        "pl2_share": 0.805,
+        "named": true
+      },
+      {
+        "agent_id": "A3041",
+        "name": "Jaspreet Desai",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 149,
+        "surveys": 61,
+        "csat": 2.262,
+        "detractor_rate": 0.656,
+        "gap": -0.539,
+        "gap_se": 0.114,
+        "expected": 2.802,
+        "handle_median_h": 121.47,
+        "handle_label": "5.1 days",
+        "pl2_share": 0.826,
+        "named": true
+      },
+      {
+        "agent_id": "A3042",
+        "name": "Sneha Sethi",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 149,
+        "surveys": 67,
+        "csat": 2.313,
+        "detractor_rate": 0.567,
+        "gap": -0.338,
+        "gap_se": 0.127,
+        "expected": 2.651,
+        "handle_median_h": 74.01,
+        "handle_label": "3.1 days",
+        "pl2_share": 0.805,
+        "named": true
+      },
+      {
+        "agent_id": "A3043",
+        "name": "Kabir Varghese",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 131,
+        "surveys": 49,
+        "csat": 2.367,
+        "detractor_rate": 0.592,
+        "gap": -0.293,
+        "gap_se": 0.156,
+        "expected": 2.66,
+        "handle_median_h": 121.55,
+        "handle_label": "5.1 days",
+        "pl2_share": 0.832,
+        "named": true
+      },
+      {
+        "agent_id": "A3039",
+        "name": "Sameer Ghosh",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Day",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 142,
+        "surveys": 56,
+        "csat": 2.607,
+        "detractor_rate": 0.5,
+        "gap": -0.119,
+        "gap_se": 0.136,
+        "expected": 2.727,
+        "handle_median_h": 96.82,
+        "handle_label": "4.0 days",
+        "pl2_share": 0.697,
+        "named": true
+      },
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 169,
+        "surveys": 67,
+        "csat": 2.612,
+        "detractor_rate": 0.463,
+        "gap": -0.282,
+        "gap_se": 0.113,
+        "expected": 2.894,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.769,
+        "named": true
+      },
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 160,
+        "surveys": 74,
+        "csat": 2.716,
+        "detractor_rate": 0.459,
+        "gap": -0.288,
+        "gap_se": 0.132,
+        "expected": 3.004,
+        "handle_median_h": 0.5,
+        "handle_label": "30 min",
+        "pl2_share": 0.688,
+        "named": true
+      },
+      {
+        "agent_id": "A3005",
+        "name": "Zaid Khanna",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 164,
+        "surveys": 64,
+        "csat": 2.859,
+        "detractor_rate": 0.438,
+        "gap": -0.028,
+        "gap_se": 0.131,
+        "expected": 2.888,
+        "handle_median_h": 0.45,
+        "handle_label": "27 min",
+        "pl2_share": 0.72,
+        "named": true
+      },
+      {
+        "agent_id": "A3007",
+        "name": "Siddharth Trivedi",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 162,
+        "surveys": 69,
+        "csat": 2.884,
+        "detractor_rate": 0.464,
+        "gap": -0.013,
+        "gap_se": 0.133,
+        "expected": 2.897,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.685,
+        "named": true
+      }
+    ],
+    "fair_bottom_including_warranty": [
+      {
+        "agent_id": "A3041",
+        "name": "Jaspreet Desai",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 149,
+        "surveys": 61,
+        "csat": 2.262,
+        "detractor_rate": 0.656,
+        "gap": -0.539,
+        "gap_se": 0.114,
+        "expected": 2.802,
+        "handle_median_h": 121.47,
+        "handle_label": "5.1 days",
+        "pl2_share": 0.826,
+        "named": true
+      },
+      {
+        "agent_id": "A3044",
+        "name": "Pranav Khanna",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Day",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 154,
+        "surveys": 62,
+        "csat": 2.258,
+        "detractor_rate": 0.597,
+        "gap": -0.412,
+        "gap_se": 0.111,
+        "expected": 2.67,
+        "handle_median_h": 98.35,
+        "handle_label": "4.1 days",
+        "pl2_share": 0.805,
+        "named": true
+      },
+      {
+        "agent_id": "A3040",
+        "name": "Tarun Fernandes",
+        "site": "Indore",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 139,
+        "surveys": 62,
+        "csat": 2.226,
+        "detractor_rate": 0.629,
+        "gap": -0.411,
+        "gap_se": 0.152,
+        "expected": 2.637,
+        "handle_median_h": 75.3,
+        "handle_label": "3.1 days",
+        "pl2_share": 0.835,
+        "named": true
+      },
+      {
+        "agent_id": "A3042",
+        "name": "Sneha Sethi",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 149,
+        "surveys": 67,
+        "csat": 2.313,
+        "detractor_rate": 0.567,
+        "gap": -0.338,
+        "gap_se": 0.127,
+        "expected": 2.651,
+        "handle_median_h": 74.01,
+        "handle_label": "3.1 days",
+        "pl2_share": 0.805,
+        "named": true
+      },
+      {
+        "agent_id": "A3043",
+        "name": "Kabir Varghese",
+        "site": "Bengaluru",
+        "team": "Escalations & Warranty",
+        "shift": "Morning",
+        "tier": 2,
+        "warranty_team": true,
+        "tickets": 131,
+        "surveys": 49,
+        "csat": 2.367,
+        "detractor_rate": 0.592,
+        "gap": -0.293,
+        "gap_se": 0.156,
+        "expected": 2.66,
+        "handle_median_h": 121.55,
+        "handle_label": "5.1 days",
+        "pl2_share": 0.832,
+        "named": true
+      },
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 160,
+        "surveys": 74,
+        "csat": 2.716,
+        "detractor_rate": 0.459,
+        "gap": -0.288,
+        "gap_se": 0.132,
+        "expected": 3.004,
+        "handle_median_h": 0.5,
+        "handle_label": "30 min",
+        "pl2_share": 0.688,
+        "named": true
+      },
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 169,
+        "surveys": 67,
+        "csat": 2.612,
+        "detractor_rate": 0.463,
+        "gap": -0.282,
+        "gap_se": 0.113,
+        "expected": 2.894,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.769,
+        "named": true
+      },
+      {
+        "agent_id": "A3031",
+        "name": "Zoya Menon",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 190,
+        "surveys": 88,
+        "csat": 3.091,
+        "detractor_rate": 0.239,
+        "gap": -0.228,
+        "gap_se": 0.105,
+        "expected": 3.319,
+        "handle_median_h": 24.44,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.453,
+        "named": true
+      },
+      {
+        "agent_id": "A3027",
+        "name": "Harpreet Goyal",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 180,
+        "surveys": 77,
+        "csat": 3.143,
+        "detractor_rate": 0.247,
+        "gap": -0.188,
+        "gap_se": 0.108,
+        "expected": 3.331,
+        "handle_median_h": 24.47,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.4,
+        "named": true
+      },
+      {
+        "agent_id": "A3035",
+        "name": "Nisha Rao",
+        "site": "Bengaluru",
+        "team": "Billing",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 148,
+        "surveys": 64,
+        "csat": 3.281,
+        "detractor_rate": 0.266,
+        "gap": -0.147,
+        "gap_se": 0.136,
+        "expected": 3.428,
+        "handle_median_h": 0.38,
+        "handle_label": "23 min",
+        "pl2_share": 0.372,
+        "named": true
+      }
+    ],
+    "coach_bottom_10": [
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 160,
+        "surveys": 74,
+        "csat": 2.716,
+        "detractor_rate": 0.459,
+        "gap": -0.288,
+        "gap_se": 0.132,
+        "expected": 3.004,
+        "handle_median_h": 0.5,
+        "handle_label": "30 min",
+        "pl2_share": 0.688,
+        "named": true
+      },
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 169,
+        "surveys": 67,
+        "csat": 2.612,
+        "detractor_rate": 0.463,
+        "gap": -0.282,
+        "gap_se": 0.113,
+        "expected": 2.894,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.769,
+        "named": true
+      },
+      {
+        "agent_id": "A3031",
+        "name": "Zoya Menon",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 190,
+        "surveys": 88,
+        "csat": 3.091,
+        "detractor_rate": 0.239,
+        "gap": -0.228,
+        "gap_se": 0.105,
+        "expected": 3.319,
+        "handle_median_h": 24.44,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.453,
+        "named": true
+      },
+      {
+        "agent_id": "A3027",
+        "name": "Harpreet Goyal",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 180,
+        "surveys": 77,
+        "csat": 3.143,
+        "detractor_rate": 0.247,
+        "gap": -0.188,
+        "gap_se": 0.108,
+        "expected": 3.331,
+        "handle_median_h": 24.47,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.4,
+        "named": true
+      },
+      {
+        "agent_id": "A3035",
+        "name": "Nisha Rao",
+        "site": "Bengaluru",
+        "team": "Billing",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 148,
+        "surveys": 64,
+        "csat": 3.281,
+        "detractor_rate": 0.266,
+        "gap": -0.147,
+        "gap_se": 0.136,
+        "expected": 3.428,
+        "handle_median_h": 0.38,
+        "handle_label": "23 min",
+        "pl2_share": 0.372,
+        "named": true
+      },
+      {
+        "agent_id": "A3003",
+        "name": "Deepak Saxena",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Night",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 86,
+        "surveys": 31,
+        "csat": 3.355,
+        "detractor_rate": 0.161,
+        "gap": -0.121,
+        "gap_se": 0.149,
+        "expected": 3.475,
+        "handle_median_h": 0.43,
+        "handle_label": "26 min",
+        "pl2_share": 0.547,
+        "named": true
+      },
+      {
+        "agent_id": "A3029",
+        "name": "Kavya Pandey",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 134,
+        "surveys": 55,
+        "csat": 3.236,
+        "detractor_rate": 0.164,
+        "gap": -0.081,
+        "gap_se": 0.109,
+        "expected": 3.318,
+        "handle_median_h": 24.3,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.478,
+        "named": true
+      },
+      {
+        "agent_id": "A3005",
+        "name": "Zaid Khanna",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 164,
+        "surveys": 64,
+        "csat": 2.859,
+        "detractor_rate": 0.438,
+        "gap": -0.028,
+        "gap_se": 0.131,
+        "expected": 2.888,
+        "handle_median_h": 0.45,
+        "handle_label": "27 min",
+        "pl2_share": 0.72,
+        "named": true
+      },
+      {
+        "agent_id": "A3030",
+        "name": "Geeta Iyer",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 123,
+        "surveys": 53,
+        "csat": 3.245,
+        "detractor_rate": 0.189,
+        "gap": -0.026,
+        "gap_se": 0.115,
+        "expected": 3.271,
+        "handle_median_h": 24.43,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.423,
+        "named": true
+      },
+      {
+        "agent_id": "A3007",
+        "name": "Siddharth Trivedi",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 162,
+        "surveys": 69,
+        "csat": 2.884,
+        "detractor_rate": 0.464,
+        "gap": -0.013,
+        "gap_se": 0.133,
+        "expected": 2.897,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.685,
+        "named": true
+      }
+    ],
+    "coach_material": [
+      {
+        "agent_id": "A3006",
+        "name": "Kavya Pandey",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 160,
+        "surveys": 74,
+        "csat": 2.716,
+        "detractor_rate": 0.459,
+        "gap": -0.288,
+        "gap_se": 0.132,
+        "expected": 3.004,
+        "handle_median_h": 0.5,
+        "handle_label": "30 min",
+        "pl2_share": 0.688,
+        "named": true
+      },
+      {
+        "agent_id": "A3004",
+        "name": "Siddharth Kapoor",
+        "site": "Bengaluru",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 169,
+        "surveys": 67,
+        "csat": 2.612,
+        "detractor_rate": 0.463,
+        "gap": -0.282,
+        "gap_se": 0.113,
+        "expected": 2.894,
+        "handle_median_h": 0.47,
+        "handle_label": "28 min",
+        "pl2_share": 0.769,
+        "named": true
+      },
+      {
+        "agent_id": "A3031",
+        "name": "Zoya Menon",
+        "site": "Bengaluru",
+        "team": "Logistics",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 190,
+        "surveys": 88,
+        "csat": 3.091,
+        "detractor_rate": 0.239,
+        "gap": -0.228,
+        "gap_se": 0.105,
+        "expected": 3.319,
+        "handle_median_h": 24.44,
+        "handle_label": "1.0 days",
+        "pl2_share": 0.453,
+        "named": true
+      }
+    ],
+    "bonus_top_5": [
+      {
+        "agent_id": "A3014",
+        "name": "Bhavna Joshi",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 77,
+        "surveys": 29,
+        "csat": 3.862,
+        "detractor_rate": 0.069,
+        "gap": 0.524,
+        "gap_se": 0.18,
+        "expected": 3.338,
+        "handle_median_h": 0.35,
+        "handle_label": "21 min",
+        "pl2_share": 0.416,
+        "named": true
+      },
+      {
+        "agent_id": "A3018",
+        "name": "Kunal Pillai",
+        "site": "Bengaluru",
+        "team": "Email Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 114,
+        "surveys": 42,
+        "csat": 3.81,
+        "detractor_rate": 0.119,
+        "gap": 0.474,
+        "gap_se": 0.175,
+        "expected": 3.335,
+        "handle_median_h": 0.38,
+        "handle_label": "23 min",
+        "pl2_share": 0.561,
+        "named": true
+      },
+      {
+        "agent_id": "A3013",
+        "name": "Sukhwinder Rao",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Day",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 88,
+        "surveys": 39,
+        "csat": 3.667,
+        "detractor_rate": 0.103,
+        "gap": 0.392,
+        "gap_se": 0.166,
+        "expected": 3.275,
+        "handle_median_h": 0.4,
+        "handle_label": "24 min",
+        "pl2_share": 0.568,
+        "named": true
+      },
+      {
+        "agent_id": "A3012",
+        "name": "Steven Ghosh",
+        "site": "Indore",
+        "team": "Chat Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 82,
+        "surveys": 30,
+        "csat": 3.667,
+        "detractor_rate": 0.133,
+        "gap": 0.377,
+        "gap_se": 0.213,
+        "expected": 3.29,
+        "handle_median_h": 0.4,
+        "handle_label": "24 min",
+        "pl2_share": 0.451,
+        "named": true
+      },
+      {
+        "agent_id": "A3019",
+        "name": "Sai Joshi",
+        "site": "Bengaluru",
+        "team": "Email Frontline",
+        "shift": "Morning",
+        "tier": 1,
+        "warranty_team": false,
+        "tickets": 120,
+        "surveys": 57,
+        "csat": 3.684,
+        "detractor_rate": 0.123,
+        "gap": 0.343,
+        "gap_se": 0.115,
+        "expected": 3.341,
+        "handle_median_h": 0.4,
+        "handle_label": "24 min",
+        "pl2_share": 0.558,
+        "named": true
+      }
+    ]
+  }
+}
