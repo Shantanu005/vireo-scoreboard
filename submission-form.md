@@ -67,7 +67,7 @@ Cursor, model Grok 4.7, to read the pack, write `score.py` and `check.py`, and d
 
 No separate API bill. A Vireo run makes no paid calls.
 
-Screen recording: not filmed from here. Walkthrough is `RECORDING.md`. Paste the Drive link over the next line.
+Screen recording: not filmed from here. Paste the Drive link over the next line.
 
 Drive link:
 

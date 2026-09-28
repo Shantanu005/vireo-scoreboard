@@ -29,7 +29,7 @@ Then open `out/scoreboard.html`.
 | `data/orders.csv` | Lot codes, only for the lot table |
 | `data/customers.csv` | Not used |
 
-`memo-priya.md` is the one-page note. `submission-form.md` is the form. `RECORDING.md` is the three-minute walkthrough to film.
+`memo-priya.md` is the one-page note. `submission-form.md` is the form.
 
 ## Decisions
 
